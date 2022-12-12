@@ -143,27 +143,27 @@
 // Book   => 6D, Volume  => 7D,  Collection => 8D
 // Series => 9D, Shelf   => 10D, Library    => 11D
 // ------------------------------------------------------------------------
-#define LIBRARY_BREAK       '\x01' // [Y] 11th dimension: historic: start of heading
-#define BINARY_START        '\x02' // [Y] Binary dimension: historic: start of text
-#define END_OF_TEXT         '\x03' //     ETX - backwards-compatible
-#define END_OF_TRANSMISSION '\x04' //     EOT - backwards-compatible
-#define COORDINATE_START    '\x05' // [Y] \q - historic: enquiry
-#define COORDINATE_END      '\x06' // [Y] \k - historic: ack
-#define MORE_COWBELL        '\x07' //     \a - historic: bell
-#define BACKSPACE           '\x08' //     \b - historic: backspace
-#define HORIZONTAL_TAB      '\x09' //     \t - historic: tab
-#define LINE_BREAK          '\x0a' // [Y] Why mess with a good thing?
-#define VERTICAL_TAB        '\x0b' //     \v - historic: Vertical Tab
-#define FORM_FEED           '\x0c' //     \f - historic: Form Feed
-#define CARRIAGE_RETURN     '\x0d' //     \r - historic: Carriage Return
-#define START_COMMENT       '\x0e' // [Y] Comment Start;  historic: shift out
-#define END_COMMENT         '\x0f' // [Y] Comment End;    historic: shift in
-#define SCROLL_BREAK        '\x17' // [Y] 3rd dimension;  historic: end of transmission
-#define SECTION_BREAK       '\x18' // [Y] 4th dimension;  historic: cancel
-#define CHAPTER_BREAK       '\x19' // [Y] 5th dimension;  historic: end of medium
-#define BOOK_BREAK          '\x1a' // [Y] 6th dimension;  historic: substitute
-#define ESCAPE              '\x1b' //     \e - historic: Escape Key
-#define VOLUME_BREAK        '\x1c' // [Y] 7th dimension;  historic: file separator
-#define COLLECTION_BREAK    '\x1d' // [Y] 8th dimension;  historic: group separator
-#define SERIES_BREAK        '\x1e' // [Y] 9th dimension;  historic: record separator
-#define SHELF_BREAK         '\x1f' // [Y] 10th dimension; historic: unit separator
+#define LIBRARY_BREAK       "\x01" // [Y] 11th dimension: historic: start of heading
+#define BINARY_START        "\x02" // [Y] Binary dimension: historic: start of text
+#define END_OF_TEXT         "\x03" //     ETX - backwards-compatible
+#define END_OF_TRANSMISSION "\x04" //     EOT - backwards-compatible
+#define COORDINATE_START    "\x05" // [Y] \q - historic: enquiry
+#define COORDINATE_END      "\x06" // [Y] \k - historic: ack
+#define MORE_COWBELL        "\x07" //     \a - historic: bell
+#define BACKSPACE           "\x08" //     \b - historic: backspace
+#define HORIZONTAL_TAB      "\x09" //     \t - historic: tab
+#define LINE_BREAK          "\x0a" // [Y] Why mess with a good thing?
+#define VERTICAL_TAB        "\x0b" //     \v - historic: Vertical Tab
+#define FORM_FEED           "\x0c" //     \f - historic: Form Feed
+#define CARRIAGE_RETURN     "\x0d" //     \r - historic: Carriage Return
+#define START_COMMENT       "\x0e" // [Y] Comment Start;  historic: shift out
+#define END_COMMENT         "\x0f" // [Y] Comment End;    historic: shift in
+#define SCROLL_BREAK        "\x17" // [Y] 3rd dimension;  historic: end of transmission
+#define SECTION_BREAK       "\x18" // [Y] 4th dimension;  historic: cancel
+#define CHAPTER_BREAK       "\x19" // [Y] 5th dimension;  historic: end of medium
+#define BOOK_BREAK          "\x1a" // [Y] 6th dimension;  historic: substitute
+#define ESCAPE              "\x1b" //     \e - historic: Escape Key
+#define VOLUME_BREAK        "\x1c" // [Y] 7th dimension;  historic: file separator
+#define COLLECTION_BREAK    "\x1d" // [Y] 8th dimension;  historic: group separator
+#define SERIES_BREAK        "\x1e" // [Y] 9th dimension;  historic: record separator
+#define SHELF_BREAK         "\x1f" // [Y] 10th dimension; historic: unit separator
